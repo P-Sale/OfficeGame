@@ -1,20 +1,9 @@
-﻿using System;
+using System;
+
 
 namespace start
 {
-    class Player
-    {
-        public string name;
-        public int score;
-
-        public Player()
-        {
-            this.name = "";
-            this.score = 0;
-        }
-    }
-
-   class MainClass
+    class MainClass
     {
         public static void Main(string[] args)
         {
@@ -31,7 +20,9 @@ namespace start
     | |  | |_ \ / _ \ | |  | |  _|  _| |/ __/ _ \    | | ,__| \ \ / / |/ _  |
     | |  | | | |  __/ | |__| | | | | | | (_|  __/    | | |  | |\ V /| | (_| |
     |_|  |_| |_|\___|  \____/|_| |_| |_|\___\___|    |_|_|  |_| \_/ |_|\__,_|
-                                                                             ");
+                                                                             "
+                                                                             
+);
             Console.WriteLine("\tWelcome to the the biggest (that's what she said) office trivia game!");     //Game introduction and name input
             Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
             Console.WriteLine("\tDo you want to play by yourself or go head to head with a friend?");         //single or two player selection 
@@ -55,7 +46,7 @@ namespace start
                 Console.ReadLine();
                 Console.Clear();
                 /////////////////////////////////////question 1//////////////////////////////////////////////////////////
-                Console.WriteLine("Question 1: Who was the first regional manager in the show?");
+                Console.WriteLine("Question 1: Who was the first VP of Northeast sales in the show?");
                 Console.WriteLine("\ta.....Ryan");
                 Console.WriteLine("\tb.....Jan");
                 Console.WriteLine("\tc.....Michael");
@@ -73,26 +64,26 @@ namespace start
                 switch (a1)
                 {
                     case "a":
-                        Console.WriteLine("that is not right, ryan was regional manager after jan");
+                        Console.WriteLine("that is not right, ryan was VP of Northeast sales after jan");
                         Console.WriteLine();
                         Console.WriteLine("Correct Answer:");
-                        Console.WriteLine("Jan was the first regional manager in the show.");
+                        Console.WriteLine("Jan was the first VP of Northeast sales in the show.");
                         break;
                     case "b":
                         Console.WriteLine("Wow " + p1.name + "....you're right");
                         p1.score += 1;
                         break;
                     case "c":
-                        Console.WriteLine("Michael was never the regional manager....genius.");
+                        Console.WriteLine("Michael was never the VP of Northeast sales....genius.");
                         Console.WriteLine();
                         Console.WriteLine("Correct Answer:");
-                        Console.WriteLine("Jan was the first regional manager in the show.");
+                        Console.WriteLine("Jan was the first VP of Northeast sales in the show.");
                         break;
                     case "d":
-                        Console.WriteLine("Stanley could've been regional manager....but then pretzel day happened....");
+                        Console.WriteLine("Stanley could've been VP of Northeast sales....but then pretzel day happened....");
                         Console.WriteLine();
                         Console.WriteLine("Correct Answer:");
-                        Console.WriteLine("Jan was the first regional manager in the show.");
+                        Console.WriteLine("Jan was the first VP of Northeast sales in the show.");
                         break;
                 }
 
@@ -325,7 +316,7 @@ namespace start
                 Console.ReadLine();
                 Console.Clear();
                 /////////////////////////////////////question 1 player 1//////////////////////////////////////////////////////////            //two player route
-                Console.WriteLine(p1.name + "- Question 1: Who was the first regional manager in the show?");
+                Console.WriteLine(p1.name + "- Question 1: Who was the first VP of Northeast sales in the show?");
                 Console.WriteLine("\ta.....Ryan");
                 Console.WriteLine("\tb.....Jan");
                 Console.WriteLine("\tc.....Michael");
@@ -343,26 +334,26 @@ namespace start
                 switch (a1)
                 {
                     case "a":
-                        Console.WriteLine("that is not right, ryan was regional manager after jan");
+                        Console.WriteLine("that is not right, ryan was VP of Northeast sales after jan");
                         Console.WriteLine();
                         Console.WriteLine("Correct Answer:");
-                        Console.WriteLine("Jan was the first regional manager in the show.");
+                        Console.WriteLine("Jan was the first VP of Northeast sales in the show.");
                         break;
                     case "b":
                         Console.WriteLine("Wow " + p1.name + "....you're right");
                         p1.score += 1;
                         break;
                     case "c":
-                        Console.WriteLine("Michael was never the regional manager....genius.");
+                        Console.WriteLine("Michael was never the VP of Northeast sales....genius.");
                         Console.WriteLine();
                         Console.WriteLine("Correct Answer:");
-                        Console.WriteLine("Jan was the first regional manager in the show.");
+                        Console.WriteLine("Jan was the first VP of Northeast sales in the show.");
                         break;
                     case "d":
-                        Console.WriteLine("Stanley could've been regional manager....but then pretzel day happened....");
+                        Console.WriteLine("Stanley could've been VP of Northeast sales....but then pretzel day happened....");
                         Console.WriteLine();
                         Console.WriteLine("Correct Answer:");
-                        Console.WriteLine("Jan was the first regional manager in the show.");
+                        Console.WriteLine("Jan was the first VP of Northeast sales in the show.");
                         break;
                 }
 
@@ -836,3 +827,4 @@ namespace start
             Console.ReadLine();
         }
     }
+}
