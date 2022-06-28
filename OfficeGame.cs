@@ -3,6 +3,17 @@ using System;
 
 namespace start
 {
+    public class Player
+    {
+        public string name;
+        public int score;
+
+        public Player()
+        {
+            this.name = "";
+            this.score = 0;
+        }
+    }
     class MainClass
     {
         public static void Main(string[] args)
